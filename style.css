@@ -1,27 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;400;600&family=Poppins:wght@300;400&family=Roboto&family=Rubik+Iso&display=swap');
+
 body{
-    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600"); 
-    font-family: 'Roboto Condensed', sans-serif;  
+    background-image: url("https://media.istockphoto.com/id/1301187096/vector/blue-background-with-lines-of-scratches-from-hockey-skates-on-ice-hockey-field-covering.jpg?s=612x612&w=0&k=20&c=308CClg4A08woWEys2KEVv0Kyl3RkPzWYJZO8Jg5p_s="); 
+    
+    font-family: 'Poppins', sans-serif;
+     
 }
+/* element selector*/
 h1{
     font-size: 75px;
     text-align: center;
+    text-decoration: underline;
 }
+/* element selector*/
 h4{
     font-size: 30px;
     justify-content: center;
     margin: 100px;
+    
 
 }
+/* class selector*/
 .var img{
     width: 500px;
     height: 500px;
     object-fit: cover;
-    margin: 50px;
+    margin:0 50px;
+    border-radius: 20px;
 }
+/* ID selector*/
 #guitar{
     width: 1000px;
     align-items: center;
-    margin: 0 150px ;
+    margin: 20px 150px ;
+    
 }
 
