@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+body{
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    justify-content: center;
+    margin: 100px;
+
+}
+.var img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 50px;
+}
+#guitar{
+    width: 1000px;
+    align-items: center;
+    margin: 0 150px ;
+}
+
