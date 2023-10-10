@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;400;600&family=Poppins:wght@300;400&family=Roboto&family=Rubik+Iso&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url("https://media.istockphoto.com/id/1301187096/vector/blue-background-with-lines-of-scratches-from-hockey-skates-on-ice-hockey-field-covering.jpg?s=612x612&w=0&k=20&c=308CClg4A08woWEys2KEVv0Kyl3RkPzWYJZO8Jg5p_s="); 
     
@@ -20,19 +23,37 @@ h4{
     
 
 }
+
 /* class selector*/
 .var img{
     width: 500px;
     height: 500px;
     object-fit: cover;
-    margin:0 50px;
+    margin-left: 100px;
     border-radius: 20px;
 }
 /* ID selector*/
 #guitar{
     width: 1000px;
     align-items: center;
-    margin: 20px 150px ;
+    margin: 20px 150px 0 150px ;
     
 }
-
+/* grouping selector */
+h1,h4{
+    text-decoration-style: double;
+}
+/* pseudo element selector */
+h4:first-line{
+    color: rgb(98, 77, 52);
+}
+/* pseudo class selector */
+.var:hover{
+    background-color: black;
+}
+a[href="#"]{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
